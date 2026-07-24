@@ -1,0 +1,19 @@
+```text
+cd ..
+mkdir Question2
+cd Question2
+
+touch process.c
+
+cat process.c
+
+gcc process.c -o process
+
+./process
+
+which gcc
+
+which cc
+
+which clang
+```
