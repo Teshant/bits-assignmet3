@@ -1,0 +1,14 @@
+mkdir Linux-Graded-Lab
+cd Linux-Graded-Lab
+mkdir Question1
+cd Question1
+mkdir submissions
+mkdir backup
+echo "Operating Systems Assignment" > submissions/student1.txt
+cp submissions/student1.txt submissions/student2.txt
+echo "Linux Lab Assignment" > submissions/student3.txt
+chmod +x solution.sh
+./solution.sh
+cat report.txt
+cat errors.log
+ls backup
