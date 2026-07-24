@@ -1,0 +1,17 @@
+cd ..
+mkdir Question3
+cd Question3
+
+touch file_processing.c
+
+cat file_processing.c
+
+gcc file_processing.c -o file_processing
+
+./file_processing
+
+which gcc
+
+which cc
+
+which clang
